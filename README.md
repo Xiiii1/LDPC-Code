@@ -34,7 +34,7 @@ The goal of the simulation is to evaluate the performance of the LDPC decoder in
 To compile the code, use the following command (assuming you're using `g++`):
 
 ```bash
-g++ -o ldpc_simulation ldpc_simulation.cpp -fopenmp
+g++ -o ldpc_simulation main.cpp -fopenmp
 ```
 
 The `-fopenmp` flag enables OpenMP for parallel processing.
